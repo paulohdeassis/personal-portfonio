@@ -11,6 +11,7 @@
   @apply sm:px-24 px-2;
 }
 
+
 .margin-alignment {
   @apply sm:mx-24 mx-2;
 }
