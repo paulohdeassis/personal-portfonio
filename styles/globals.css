@@ -1,13 +1,9 @@
-@import '@fontsource/roboto/300.css';
-@import '@fontsource/roboto/400.css';
-@import '@fontsource/roboto/500.css';
-@import '@fontsource/roboto/700.css';
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 /* For whitespace on the sides varying with width */
-.padding-alignment {
+/* .padding-alignment {
   @apply sm:px-24 px-2;
 }
 
@@ -17,9 +13,9 @@
 }
 
 /* Add this class to hide horizontal scrolls */
-.hide-scroll-x::-webkit-scrollbar {
+/* .hide-scroll-x::-webkit-scrollbar {
   width: 0px;
-}
+}  */
 
 /* Default body background from our theme */
 body {
@@ -27,10 +23,10 @@ body {
 }
 
 /* Prevents blue highlight color of elements when tapped on phones */
-* {
+/* * {
   -webkit-tap-highlight-color: transparent;
-}
-
+} */
+/* 
 html,
 body {
   padding: 0;
@@ -46,4 +42,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
+} */
