@@ -1,17 +1,20 @@
 import React from 'react'
 import { Container, Typography, Button} from '@mui/material'
 import Image from 'next/image'
+import NavBar from './NavBar'
 
 
 export default function HeroSection() {
   return (
-   <Container className='bg-red-500'>
-    <div >
-     <Image src="/images/profile-pic.png"  height={600} width={500} />
-     <Image src="/images/cloud.svg"  width={200} height={100}/>
-     <Image src="/images/cloud.svg"  width={200} height={100}/>    
+   <Container id='home' className='flex'>
+    <div>
+     <Image src="/images/profile-pic.png" className="w-max h-max" height={650} width={550} />
+     <Image src="/images/cloud.svg" className='absolute left-1'  width={400} height={200}/>
+     <Image src="/images/cloud.svg"  width={400} height={200}/>
+     
     </div>
     <div>
+      <NavBar />
       <Typography variant="h2">PORTFOLIO</Typography>
       <Typography variant="h1">Paulo de Assis</Typography>
       <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit,

@@ -2,8 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700;900&family=Vidaloka&display=swap');
+
 /* For whitespace on the sides varying with width */
-/* .padding-alignment {
+.padding-alignment {
   @apply sm:px-24 px-2;
 }
 
@@ -15,7 +17,7 @@
 /* Add this class to hide horizontal scrolls */
 /* .hide-scroll-x::-webkit-scrollbar {
   width: 0px;
-}  */
+} 
 
 /* Default body background from our theme */
 body {
@@ -23,10 +25,10 @@ body {
 }
 
 /* Prevents blue highlight color of elements when tapped on phones */
-/* * {
+*{
   -webkit-tap-highlight-color: transparent;
-} */
-/* 
+} 
+
 html,
 body {
   padding: 0;
@@ -38,8 +40,8 @@ body {
 a {
   color: inherit;
   text-decoration: none;
-}
+} 
 
 * {
   box-sizing: border-box;
-} */
+}

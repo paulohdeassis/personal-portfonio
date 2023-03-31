@@ -30,7 +30,7 @@ const themeConstants = {
 module.exports = {
   mode: 'jit',
   content: [
-    './pages/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
     './Components/**/*.{js,ts,jsx,tsx}',
     './hoc/*.{js,ts,jsx,tsx}',
     './Widgets/**/*.{js,ts,jsx,tsx}',
