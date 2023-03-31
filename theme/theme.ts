@@ -2,7 +2,7 @@ import { createTheme } from '@mui/material/styles'
 
 // THIS OBJECT SHOULD BE SIMILAR TO ../tailwind.config.js
 const themeConstants = {
-  paper: '#F9F9F9',
+  paper: '#f2f2f2',
   primary: {
     main: '#fff',
     dark: '#e5e5e5',

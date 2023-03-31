@@ -3,7 +3,7 @@ const defaultTheme = require('tailwindcss/defaultTheme')
 
 // THIS OBJECT SHOULD BE SIMILAR TO ./theme/theme.js
 const themeConstants = {
-  paper: '#F9F9F9',
+  paper: '#f2f2f2',
   primary: {
     main: '#fff',
     dark: '#e5e5e5',
@@ -30,7 +30,7 @@ const themeConstants = {
 module.exports = {
   mode: 'jit',
   content: [
-    './pages/*.{js,ts,jsx,tsx}',
+    './pages/**/*.{js,ts,jsx,tsx}',
     './Components/**/*.{js,ts,jsx,tsx}',
     './hoc/*.{js,ts,jsx,tsx}',
     './Widgets/**/*.{js,ts,jsx,tsx}',
